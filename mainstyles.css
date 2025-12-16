@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: slategray;
+    overflow-x: hidden;
+}
+.uline {
+   text-decoration: underline;
+}
+
+
+.top {
+    top: 5px;
+}
+
+.abs {
+    position: absolute;
+}
+
+.widthFit {
+    width: 100%;
+}
+.iframeSize {
+    position: absolute;
+    width: 85%;
+    height: 700px;
+
+
+}
+
+
+
+.titleImg {
+    background-image: url(assets/mainmenuNew.png);
+}
+.levelImg {
+    background-image: url(assets/lvlselect.png);
+}
+.vidImg {
+    background-image: url(assets/Beginning_10082.PNG)
+}
+.wrathImg {
+    background-image: url(assets/wrath_back.png);
+    background-repeat: repeat-y;
+}
+
+
+.boxImg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mainLinks {
+    position: absolute;
+
+    display: block;
+    height: 12vh;
+    width: 12vw;
+
+    /* border: 2px solid black; */
+}  
+
+
+.playGame {
+    border-color: red;
+}
+
+.gameStatement {
+    border-color: blue;
+}
+
+.bioSection {
+    border-color: green;
+}
+
+
+.rel {
+    position: relative;
+}
+
+.fit {
+    width: 100%;
+    height: 100%;
+}
+
+.allContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sectionOffset {
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+.topSectionOffset {
+    margin-bottom: 2.5vh;
+}
+
+.spanningMargs {
+    margin-top: 1.5vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+.centerH {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.statementTxt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
+.headertxt {
+    width: 120%;
+
+    font-size: calc(2vw + 3vh);
+    font-weight: bold;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+
+.blockf {
+    display: block;
+    margin: auto;
+}
+
+
+@font-face {
+    font-family: Chalk;
+    src: url(Chalkduster.ttf.woff);
+}
+
+.chalky {
+    font-family: Chalk;
+}
+
+.centerTxt {
+    text-align: center;
+}

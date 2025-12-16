@@ -1,0 +1,42 @@
+.listFit {
+    display: block;
+    width: 95%;
+    height: 100vh;
+}
+.artist {
+    display: block;
+    width: 25vw;
+    min-width: 100px;
+    position: relative;
+}
+.artisttxt {
+    background-color: rgb(190, 202, 212);
+    text-decoration:dotted;
+
+    font-family: "Allerta Stencil", serif;
+    display: block; 
+    height: calc(3px + 1vw + 1vh);
+    border: 2px solid;
+}
+.dText {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(190, 202, 212);
+    text-decoration:dotted;
+    display: block; 
+    height: calc(3px + 3vw + 2vh);
+    border: 2px solid;
+}
+.artistimg {
+    display: block;
+    height: 30vw;
+    border: 2px solid black;
+    background-position-x: center;
+    background-size: cover;
+}
+.flextxt {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+}

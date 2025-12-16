@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <style>
+        @font-face {
+            font-family: 'Party LET';
+            src: url(fonts/Party\ LET\ Plain.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        .party {
+            font-family: 'Party LET';
+        }
+
+
+
+    .spanwidth {
+        width: 96%;
+    }
+
+    .stdblockheight {
+        min-height: 800px;
+    }
+    .listheight {
+        min-height: calc(75vw + 18vh);
+    }
+
+    .thickborder {
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+    .imgbg {
+        background-image: url(assets/1.jpeg);
+    }
+    #gameLink {
+        right: 33.5%;
+        top: 36%;
+    }
+    #statementLink {
+        right: 14%;
+        top: 78%;
+    }
+    #bioLink {
+        left: 10%;
+        top: 36%;
+    }
+    .llist {
+        margin-bottom: 2vh;
+        text-align: center;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        max-width: 100%;  
+    }
+    .llist li {
+        display: inline-block;
+        font-size: calc(3px + 1vw);
+        font-weight: bold;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        padding-left: 2%;
+        padding-right: 2%; 
+    }
+    #video {
+        left: 8%;
+        top: 6%;
+    }
+
+
+
+    </style>
+
+
+    <link rel="stylesheet" href="mainstyles.css">
+    <link rel="stylesheet" href="liststyles.css">
+
+</head>
+
+<body>
+
+    <div class="allContainer rel topSectionOffset thickborder">
+        <div class="thickborder spanwidth spanningMargs boxImg titleImg stdblockheight">
+        <a href="https://maveymavv.itch.io/autophobia-week-5">
+            <div class="mainLinks playGame"             id="gameLink"></div>
+        </a>
+        <a href="#statement">                            
+            <div class="mainLinks gameStatement"        id="statementLink"></div>
+        </a>
+        <a href="#devteam">
+            <div class="mainLinks bioSection"           id="bioLink"></div>
+        </a>
+        </div>
+
+    </div>
+
+    <div class="allContainer rel sectionOffset thickborder" id="trailer">
+        <div class="rel thickborder spanwidth boxImg vidImg stdblockheight">
+            <video id="video" class="iframeSize" controls>
+                <source src="assets/trailer.mp4" type="video/mp4">
+            </video>
+
+
+            <!-- <iframe src="https://www.youtube.com/watch?v=WblDSTMobpg" 
+            class="iframeSize"></iframe> -->
+        </div>
+    </div>
+
+    <div class="allContainer rel sectionOffset thickborder" id="statement">
+        <div class="rel thickborder spanwidth boxImg levelImg stdblockheight">
+            <div class="abs centerH"><p class="headertxt uline">Our Game</p></div>
+            <div class="abs statementTxt"><p class="headertxt">
+                You are an unnamed soul trapped within your own head, who makes 
+                a deal with the devil in order to escape. Once you defeat the 
+                seven deadly sins, the devil promises to free you for good.
+                Can you find your freedom?
+            </p></div>
+        </div>
+    </div>
+
+    <div class="allContainer rel sectionOffset thickborder" id="devteam">
+
+        <div class="thickborder spanwidth boxImg wrathImg listheight">
+            <div class="abs top">
+                <ul class="llist">
+
+                    <li><div class="artist"><div class="artistimg"  style="background-image:url(headshots/Maven.png)"></div>
+                        <div class="artisttxt">Maven Li</div>       
+                        <div class="dText"> Any pronouns  <br>
+                                            Animation major <br>
+                                            Animation, music, and project manager</div>     
+                    </div></li>
+
+                    <li><div class="artist"><div class="artistimg"  style="background-image:url(headshots/Nico.png)"></div>
+                        <div class="artisttxt">Nicolas R. de Athayne</div>
+                        <div class="dText"> He/him <br>
+                                            Fine Arts major <br>
+                                            Art, assets, and music</div>
+                    </div></li>
+
+                    <li><div class="artist"><div class="artistimg"  style="background-image:url(headshots/Elaine3.png)"></div>
+                        <div class="artisttxt">Yining Zhang</div>
+                        <div class="dText"> She/her <br>
+                                            Computer Science major <br>
+                                            Code</div>
+                    </div></li>
+
+                    <li><div class="artist"><div class="artistimg"  style="background-image:url(headshots/Sabine.png)"></div>
+                        <div class="artisttxt">Sabine Hyori Dinovo</div>
+                        <div class="dText"> She/her <br>
+                                            Computer Science major <br>
+                                            Code</div>
+                    </div></li>
+
+                    <li><div class="artist"><div class="artistimg"  style="background-image:url(headshots/Elgin.png)"></div>
+                        <div class="artisttxt">Elgin Zhou</div>
+                        <div class="dText"> He/him <br>
+                                            Computer Science + Psychology major <br>
+                                            Code</div>
+                    </div></li>
+
+                    <li><div class="artist"><div class="artistimg"  style="background-image:url(headshots/Julian.png)"></div>
+                        <div class="artisttxt">Julian DuTemple</div>
+                        <div class="dText"> He/him <br>
+                                            Computer Science + Music major <br>
+                                            Code, music, this website</div>
+                    </div></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
